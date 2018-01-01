@@ -1,0 +1,13 @@
+.todo-item {
+  height: 14%;
+  width: 90%;
+  border: black 1px solid;
+  margin-top: 10px;
+  font-size: 22px;
+  background-color: #C1E4F7;
+}
+
+p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
