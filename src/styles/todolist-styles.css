@@ -1,0 +1,25 @@
+.todo-list-header {
+  background-color: #C7E8AC;
+  border: black 1px solid;
+  height: 10%;
+}
+
+.todo-items-container {
+  border: black 1px solid;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFDF71;
+}
+
+.todo-list {
+  flex-direction: column;
+  width: 20%;
+  height: 80%;
+  display: flex;
+}
+
+h3 {
+  margin-left: 5px;
+}
