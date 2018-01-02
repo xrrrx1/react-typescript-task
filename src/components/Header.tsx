@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './header-styles.css';
+import '../styles/header-styles.css';
 import Button from './Button';
 
 class Header extends React.Component {

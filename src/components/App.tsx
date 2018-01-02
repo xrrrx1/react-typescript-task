@@ -2,7 +2,7 @@ import * as React from 'react';
 import Header from './Header';
 import TodoListsContainer from './TodoListsContainer';
 import '../styles/app-styles.css';
-import Counter from './Counter';
+import Counter from './Counterr';
 
 class App extends React.Component {
   render() {

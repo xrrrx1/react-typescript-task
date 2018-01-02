@@ -1,11 +1,14 @@
-import INCREMENT from '../constants'
+import INCREMENT from '../constants';
 
 export default (count = 0, action: any) => {
   const {type} = action;
 
   switch (type) {
-      case INCREMENT: return count + 1
+      case INCREMENT: return count + 1;
   }
 
-  return count
-}
+  return count;
+};
+
+
+export const getState = (state: any) => state.count;

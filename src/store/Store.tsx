@@ -7,5 +7,4 @@ const enhancer = Redux.applyMiddleware(thunk, logger);
 
 const store = Redux.createStore(reducer, {}, enhancer);
 
-export default store
-
+export default store;
