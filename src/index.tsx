@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import './styles/index.css';
-import Root from './components/Root';
+import './index.css';
+import Root from './components/Root/Root';
 
 ReactDOM.render(
   <Root />,

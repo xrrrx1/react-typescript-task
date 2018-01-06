@@ -1,9 +1,4 @@
-import INCREMENT from '../constants';
+import * as tasksActions from './tasksActions';
+import * as popupActions from './popupActions';
 
-function increment() {
-  return {
-      type: INCREMENT
-  };
-}
-
-export default increment;
+export { popupActions, tasksActions };

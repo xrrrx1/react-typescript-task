@@ -1,6 +1,8 @@
 import * as Redux from 'redux';
-import counterReducer from './counterReducer';
+import tasks from './tasksReducer';
+import popup from './popupReducer';
 
 export default Redux.combineReducers ({
-  count: counterReducer,
+  popup,
+  tasks
 });

@@ -2,6 +2,8 @@
   background-color: #C7E8AC;
   border: black 1px solid;
   height: 10%;
+  display: flex;
+  align-items: center;
 }
 
 .todo-items-container {

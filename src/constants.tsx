@@ -1,3 +1,4 @@
-const INCREMENT = 'INCREMENT';
+export const ADD_NEW_TASK = 'ADD_NEW_TASK';
 
-export default INCREMENT;
+export const OPEN_POPUP = 'OPEN_POPUP';
+export const CLOSE_POPUP = 'CLOSE_POPUP';
