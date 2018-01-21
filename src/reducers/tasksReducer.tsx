@@ -18,6 +18,10 @@ const getNewTaskId = ( state: Task[] ) => {
   return 1 + state[0].id;
 };
 
+export const getTaskByType = (store, type) => {
+  return store.tasks.filter(task => task.type === type);
+};
+
 export default function tasks (state: Task[] = defaultValues, action: Action) {
   switch (action.type) {
     case ADD_NEW_TASK:
@@ -35,3 +39,4 @@ export default function tasks (state: Task[] = defaultValues, action: Action) {
       return state;
   }
 }
+
